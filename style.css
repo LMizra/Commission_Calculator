@@ -33,6 +33,12 @@ body {
   align-items: center;
   margin-top: 50px;
 }
+.vLPercentage,
+.total,
+#lrdPercentage,
+#vrdPercentage {
+  color: goldenrod;
+}
 
 .cptitle {
   text-align: center;
@@ -110,7 +116,7 @@ button {
 
 /* Mobile Device */
 
-@media screen and (min-width: 350px) and (max-width: 700px) {
+@media screen and (min-width: 350px) and (max-width: 950px) {
   body {
     overflow-x: hidden;
     width: 100%;
@@ -170,7 +176,7 @@ button {
 
 /* Tablet device - mini */
 
-@media screen and (min-width: 700px) and (max-width: 820) {
+/* @media screen and (min-width: 700px) and (max-width: 819) {
   body {
     overflow-x: hidden;
     width: 100%;
@@ -189,7 +195,7 @@ button {
   }
 
   .container {
-    min-height: 75vh;
+    min-height: 85vh;
     width: 75%;
     margin: 0 auto;
   }
@@ -229,11 +235,11 @@ button {
     font-size: 40px;
     color: goldenrod;
   }
-}
+} */
 
 /* iPad Air */
 
-@media screen and (min-width: 700px) and (max-width: 1020px) {
+/* @media screen and (min-width: 820px) and (max-width: 1020px) {
   body {
     overflow-x: hidden;
     width: 100%;
@@ -296,7 +302,7 @@ button {
     font-size: 40px;
     color: goldenrod;
   }
-}
+} */
 
 /* Desktop */
 
